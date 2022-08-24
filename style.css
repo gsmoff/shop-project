@@ -5,6 +5,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-image: url(img/patt.png);
+  font-size: 21px;
 }
 /* контейнер для размещения контента по центру */
 .container {
@@ -69,7 +70,9 @@ body {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 25px 0;
  }
-
+.logo {
+  margin-top: 8px;
+}
 
 .hero {
   background-color: rgba(0, 0, 0, 0.2);
