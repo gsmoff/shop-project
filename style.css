@@ -1,8 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 body {
-font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-image: url(img/patt.png);
+}
+/* контейнер для размещения контента по центру */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* корректируем на ширину колонки между столбиками */
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* ширина колнок от общей ширины контейнера */
+.col-1 {
+  width: 8.33333%;
+}
+.col-2 {
+  width: 16.6667px;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333%;
+}
+.col-5 {
+  width: 41.66667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333%;
+}
+.col-11 {
+  width: 91.66667%;
+}
+.col-12 {
+  width: 100%;
+}
+/* флоат и отсупы всем колонкам */
+[class*="col-"] {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
 }
