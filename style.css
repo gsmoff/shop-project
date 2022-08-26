@@ -251,7 +251,10 @@ body {
 .filter-box:hover > ul {
   display: block;
 }
-
+/* продуктовые карточки */
+.produkts-menu {
+  margin-top: 20px;
+}
 .produkts-menu li {
   float: left;
   width: 33%;
@@ -259,7 +262,7 @@ body {
   padding: 16px;
   font-size: 21px;
   line-height: 1.5;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   /* background-color: tomato; */
 }
 .produkts-menu a {
@@ -323,4 +326,10 @@ sup {
   font-weight: 700;
   cursor: pointer;
   margin-top: 15px;
+}
+.load-more {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
 }
