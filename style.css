@@ -97,6 +97,7 @@ body {
   background-color: #2c71b8;
   color: white;
 }
+
 /* Стили для субменю */
 .menu ul li {
   float: none;
@@ -112,15 +113,17 @@ body {
   display: block;
 }
 .menu a:hover,
-.dropdown:hover .drop-btn {
+.dropdown:hover a{
   background-color: #2c71b8;
   color: white;
-}
+  }
+
+/* .dropdown>a::after {
+  content: url("./img/arrow-down-blue.png");
+  } */
 
 .dropdown {
-  background-image: url("./img/arrow-down.png");
-  background-repeat: no-repeat;
-  background-position: center right;
+  background: url("./img/arrow-down-blue.png") no-repeat center right;
   background-size: 20%;
 }
 
