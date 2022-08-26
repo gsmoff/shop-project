@@ -265,7 +265,7 @@ body {
 .produkts-menu a {
   display: block;
   text-decoration: none;
-  text-align: centerr;
+  text-align: center;
 
   color: white;
 }
@@ -304,4 +304,24 @@ body {
 sup {
   vertical-align: super;
   font-size: 35px;
+}
+.produkts-card-text a {
+  display: block;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+.produkts-card-text button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255,0.27);
+  color: inherit;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 15px;
 }
