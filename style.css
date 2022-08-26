@@ -259,19 +259,18 @@ body {
   padding: 16px;
   font-size: 21px;
   line-height: 1.5;
-  border: 1px solid #2c71b8;
-  background-color: tomato;
+  border: 1px solid white;
+  /* background-color: tomato; */
 }
 .produkts-menu a {
   display: block;
   text-decoration: none;
   text-align: center;
-
   color: white;
 }
 .produkts-card {
-  border: 1px solid #2c71b8;
-  background-color: #2c71b8;
+  border: 1px solid white;
+  background-color: rgba(44, 113, 184, 0.75);
 }
 .produkts-foto {
   background-color: rgba(255, 255, 255, 0.75);
