@@ -124,7 +124,7 @@ body {
 
 .dropdown {
   background: url("./img/arrow-down-blue.png") no-repeat center right;
-  background-size: 20%;
+  background-size: 15%;
 }
 
 .submenu a {
@@ -210,6 +210,7 @@ body {
   font-weight: 700;
   margin-left: 65px;
 }
+/* Фильтр, списоком */
 .filter-box button {
   display: block;
   width: 100%;
@@ -223,6 +224,8 @@ body {
   font-size: 21px;
   cursor: pointer;
   margin-top: 7px;
+  background: url("./img/arrow-down-white.png") no-repeat center right;
+  background-size: 15%;
 }
 .filter-box li {
   border: 1px solid white;
@@ -333,3 +336,4 @@ sup {
   text-align: center;
   font-size: 36px;
 }
+
