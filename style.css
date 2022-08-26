@@ -145,6 +145,7 @@ body {
   border: 1px solid #2c71b8;
   color: #2c71b8;
   margin-top: 5px;
+
   /* заливка чтобы видеть что происходит */
   /* background-color: yellow; */
 }
@@ -155,12 +156,12 @@ body {
   font-size: 21px;
   width: 81%; 
   height: 30px;
-  line-height: 40px;
   background-color: transparent;
+  -webkit-appearance: none; 
   /* background-color: tomato; */
   color: #2c71b8;
   font-family: "Roboto", sans-serif;
-  display: block;
+  vertical-align: middle;
   float: left;
 }
 .form-search-header input::placeholder {
