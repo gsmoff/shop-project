@@ -18,6 +18,7 @@ body {
 /* для очистки флоатов */
 .row::after,
 .menu::after,
+.form-search-header::after,
 .produkts-menu::after {
   content: "";
   display: block;
@@ -145,17 +146,25 @@ body {
   color: #2c71b8;
   margin-top: 5px;
   /* заливка чтобы видеть что происходит */
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .form-search-header input {
   border: none;
-  color: #2c71b8;
   /* стили при которых input выходит за пределы формы при отсутутствии ширины*/
   padding-left: 15px;
   font-size: 21px;
-  /* width: 79%; */
+  width: 81%; 
   height: 30px;
-  background-color: tomato;
+  line-height: 40px;
+  background-color: transparent;
+  /* background-color: tomato; */
+  color: #2c71b8;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  float: left;
+}
+.form-search-header input::placeholder {
+  color: #2c71b8;
 }
 .form-search-header input:focus {
   outline: none;
@@ -169,6 +178,7 @@ body {
   cursor: pointer;
   padding: 0;
   margin: 3px;
+  /* float: right; */
 }
 .cart-header {
   width: 40px;
@@ -352,8 +362,6 @@ body {
   cursor: pointer;
   margin-top: 15px;
 }
-
-
 .load-more {
   display: block;
   padding: 20px;
