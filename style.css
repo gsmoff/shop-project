@@ -141,21 +141,19 @@ body {
   border: 1px solid #2c71b8;
   color: #2c71b8;
   margin-top: 5px;
-
-  /* заливка чтобы видеть что происходит */
-  /* background-color: yellow; */
+  padding: 4px;
+  height: 40px; 
+  /* width: 200px; */
 }
 .form-search-header input {
   border: none;
-  /* стили при которых input выходит за пределы формы при отсутутствии ширины*/
-  padding-left: 15px;
+  padding-left:15px;
   font-size: 21px;
-  width: 81%; 
+  width: 154px; 
   height: 30px;
   background-color: transparent;
   -webkit-appearance: none; 
-  /* background-color: tomato; */
-  color: #2c71b8;
+  color: #2c71b8;     
   font-family: "Roboto", sans-serif;
   vertical-align: middle;
   float: left;
@@ -174,9 +172,8 @@ body {
   border: none;
   cursor: pointer;
   padding: 0;
-  margin: 3px;
   /* float: right; */
-}
+    }
 .cart-header {
   width: 40px;
   height: 40px;
@@ -278,7 +275,7 @@ body {
 .produkt {
   width: 270px;
   height: 652px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   }
 .produkt-foto {
   background-color: rgba(255, 255, 255, 0.75);
@@ -384,6 +381,8 @@ body {
   display: block;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
+  color: white;
   font-size: 36px;
   margin-bottom: 86px;
 }
