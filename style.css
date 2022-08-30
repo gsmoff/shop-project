@@ -147,9 +147,9 @@ body {
 }
 .form-search-header input {
   border: none;
-  padding-left:15px;
+  padding: 0 0 0 15px;
   font-size: 21px;
-  width: 153px; 
+  width: 155px; 
   height: 30px;
   background-color: transparent;
   -webkit-appearance: none; 
@@ -365,17 +365,27 @@ body {
 .add-btn {
   background-color: rgba(255, 255, 255,0.20);
   border: none;
-}
+  }
 .product-cart-btn {
   position: relative;
+  width: 210px;
+  height: 50px;
+  margin: 0 auto;
 }
+.add-btn:hover,
+.details-btn:hover,
+.product-cart-btn:hover {
+  color: #2c71b8;
+  background-color: white;
+}
+
 .white-cart {
   position: absolute;
   background: url("./img/white-cart.png") no-repeat center;
   width: 50px;
   height: 50px;
   top: 0;
-  right: 18px;
+  right: 0;
 }
 .load-more {
   display: block;
