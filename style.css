@@ -307,7 +307,12 @@ body {
   right: 5px;
   top: 50px;
  }
-
+ .like:hover {
+  background: white url("./img/like.png") no-repeat center;
+ }
+ .expand:hover {
+  background: white url("./img/expand.png") no-repeat center;
+ }
 .produkt-card-text {
   background-color: rgba(44, 113, 184, 0.75);
   height: 473px;
