@@ -83,20 +83,78 @@
         <div class="row">
           <!-- боковой продуктовый фильтр -->
           <div class="col-3">
-             <div class="aside-filter">Filter</div>
+            <div class="aside-filter">
+              <h2 class="filter-title">Divice type</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="laptop" />
+                  <label for="laptop"> Laptop</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="tablet" />
+                  <label for="tablet"> Tablet</label>
+                </li>
+              </ul>
+              <h2 class="filter-title">Color</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="black" />
+                  <label for="black">Black</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="red" />
+                  <label for="red">Red</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="green" />
+                  <label for="green">Green</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="blue" />
+                  <label for="blue">Blue</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="orange" />
+                  <label for="orange">Orange</label>
+                </li>
+              </ul>
+              <h2 class="filter-title">Ram</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="1GB" />
+                  <label for="1GB"> 1GB</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="2GB" />
+                  <label for="2GB"> 2GB</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="6GB" />
+                  <label for="6GB"> 6GB</label>
+                </li>
+                <li>
+                  <input type="checkbox" class="filter-checkbox" id="8GB" />
+                  <label for="8GB"> 8GB</label>
+                </li>
+              </ul>
+              <a href="#">Show more options...</a>
+              <button class="filter-btn">Submit</button>
+            </div>
           </div>
-            <!-- основная часть с карточками продуктов -->
+          <!-- основная часть с карточками продуктов -->
           <div class="col-9">
             <!-- хлебные крошки -->
             <div class="row">
               <div class="col-12">
-                <p class="address-bar"> Home page > Products > Laptops and Tablets</p>
+                <p class="address-bar">
+                  Home page > Products > Laptops and Tablets
+                </p>
               </div>
             </div>
             <!-- Основной заголовок прдуктового меню -->
             <div class="row">
               <div class="col-8">
-                <h2 class="main-title">Laptops and Tablets</h2> 
+                <h2 class="main-title">Laptops and Tablets</h2>
               </div>
               <!-- горизонтальный фильтр -->
               <div class="col-4">
@@ -108,323 +166,326 @@
                     <li><a href="#">sort by name</a></li>
                     <li><a href="#">sort by populary</a></li>
                   </ul>
+                </div>
               </div>
-             </div>
-           </div>
+            </div>
             <!-- Продуктовые карточки -->
             <div class="row">
-             <!-- #1 Divice name -->
-               <div class="col-4">
-                 <div class="produkt">
-                    <div class="produkt-foto">
-                       <a href="#">
-                        <img src="./img/divice1.png" alt="monitor" />
-                        </a>
-                       <div class="expand"></div>
-                       <div class="like"></div>
+              <!-- #1 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice1.png" alt="dvd" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#1 Divice name</h3>
                     </div>
-                   <div class="produkt-card-text">
-                      <div class="produkt-title">
-                        <h3>#1 Divice name</h3>
-                      </div>
-                      <div class="produkt-description">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                      </div>
-                      <div class="product-features">
-                        <span class="uppercase">Type</span>: Laptop<br />
-                        <span class="uppercase">Screen size</span>: 7 iches<br />
-                        <span class="uppercase">Ram</span>: 1 GB
-                      </div>
-                      <div class="produkt-price">
-                        <p class="price">$500 <sup>25</sup></p> 
-                      </div>
-                      <button class="details-btn">More details</button>
-                      <div class="product-cart-btn">
-                        <button class="add-btn">Add to cart</button>
-                        <div class="white-cart"></div>
-                      </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </div>
-                 </div>                       
-               </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$599 <sup>25</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- #2 Divice name -->
-                <div class="col-4">
-                  <div class="produkt">
-                    <div class="produkt-foto">
-                        <a href="#">
-                          <img src="./img/divice2.png" alt="dvd" />
-                        </a>
-                        <div class="expand"></div>
-                        <div class="like"></div>
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice2.png" alt="dvd" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#2 Divice name</h3>
                     </div>
-                    <div class="produkt-card-text">
-                      <div class="produkt-title">
-                        <h3>#2 Divice name</h3>
-                      </div>
-                      <div class="produkt-description">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                      </div>
-                      <div class="product-features">
-                        <span class="uppercase">Type</span>: Laptop<br />
-                        <span class="uppercase">Screen size</span>: 7 iches<br />
-                        <span class="uppercase">Ram</span>: 1 GB
-                      </div>
-                      <div class="produkt-price">
-                        <p class="price">$1250 <sup>99</sup></p> 
-                      </div>
-                      <button class="details-btn">More details</button>
-                      <div class="product-cart-btn">
-                        <button class="add-btn">Add to cart</button>
-                        <div class="white-cart"></div>
-                      </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </div>
-                 </div>   
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$1250 <sup>99</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
                 </div>
+              </div>
               <!-- #3 Divice name -->
-                <div class="col-4">
+              <div class="col-4">
                 <div class="produkt">
                   <div class="produkt-foto">
-                   <a href="#">
-                     <img src="./img/divice3.png" alt="wrist watch"/>
-                   </a>
-                   <div class="expand"></div>
-                   <div class="like"></div>
+                    <a href="#">
+                      <img src="./img/divice3.png" alt="wrist watch" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
                   </div>
                   <div class="produkt-card-text">
-                   <div class="produkt-title">
-                   <h3>#3 Divice name</h3>
-                   </div>
-                   <div class="produkt-description">
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   </div>
-                   <div class="product-features">
-                 <span class="uppercase">Type</span>: Laptop<br />
-                 <span class="uppercase">Screen size</span>: 7 iches<br />
-                 <span class="uppercase">Ram</span>: 1 GB
-                   </div>
-                   <div class="produkt-price">
-                 <p class="price">$399<sup> 50</sup></p> 
-                   </div>
-                   <button class="details-btn">More details</button>
-                   <div class="product-cart-btn">
-                   <button class="add-btn">Add to cart</button>
-                   <div class="white-cart"></div>
-                   </div>
-                  </div>
-                  </div>  
-                </div>
-              <!-- #4 Divice name -->
-                <div class="col-4">
-                <div class="produkt">
-                  <div class="produkt-foto">
-                   <a href="#">
-                     <img src="./img/divice4.png" alt="notebook"/>
-                   </a>
-                   <div class="expand"></div>
-                   <div class="like"></div>
-                  </div>
-                  <div class="produkt-card-text">
-                   <div class="produkt-title">
-                   <h3>#4 Divice name</h3>
-                   </div>
-                   <div class="produkt-description">
-                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                   </div>
-                   <div class="product-features">
-                 <span class="uppercase">Type</span>: Laptop<br />
-                 <span class="uppercase">Screen size</span>: 7 iches<br />
-                 <span class="uppercase">Ram</span>: 1 GB
-                   </div>
-                   <div class="produkt-price">
-                 <p class="price">$599<sup> 25</sup></p> 
-                   </div>
-                   <button class="details-btn">More details</button>
-                   <div class="product-cart-btn">
-                   <button class="add-btn">Add to cart</button>
-                   <div class="white-cart"></div>
-                   </div>
-                  </div>
-                  </div>  
-                </div>
-              <!-- #5 Divice name -->
-                <div class="col-4">
-                <div class="produkt">
-                <div class="produkt-foto">
-                 <a href="#">
-                   <img src="./img/divice5.png" alt="mp3 player" />
-                 </a>
-                 <div class="expand"></div>
-                 <div class="like"></div>
-                </div>
-                <div class="produkt-card-text">
-                 <div class="produkt-title">
-                 <h3>#5 Divice name</h3>
-                 </div>
-                 <div class="produkt-description">
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                 </div>
-                 <div class="product-features">
-               <span class="uppercase">Type</span>: Laptop<br />
-               <span class="uppercase">Screen size</span>: 7 iches<br />
-               <span class="uppercase">Ram</span>: 1 GB
-                 </div>
-                 <div class="produkt-price">
-               <p class="price">$1250 <sup>99</sup></p> 
-                 </div>
-                 <button class="details-btn">More details</button>
-                 <div class="product-cart-btn">
-                 <button class="add-btn">Add to cart</button>
-                 <div class="white-cart"></div>
-                 </div>
-                </div>
-                </div>   
-               </div>
-              <!-- #6 Divice name -->
-               <div class="col-4">
-                  <div class="produkt">
-                    <div class="produkt-foto">
-                         <a href="#">
-                           <img src="./img/divice6.png" alt="wrist watch"/>
-                         </a>
-                         <div class="expand"></div>
-                         <div class="like"></div>
+                    <div class="produkt-title">
+                      <h3>#3 Divice name</h3>
                     </div>
-                    <div class="produkt-card-text">
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$399<sup> 50</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- #4 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice4.png" alt="notebook" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#4 Divice name</h3>
+                    </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$599<sup> 25</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- #5 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice5.png" alt="mp3 player" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#5 Divice name</h3>
+                    </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$1250 <sup>99</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- #6 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice6.png" alt="wrist watch" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
                     <div class="produkt-title">
                       <h3>#6 Divice name</h3>
                     </div>
                     <div class="produkt-description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </div>
                     <div class="product-features">
-                       <span class="uppercase">Type</span>: Laptop<br />
-                       <span class="uppercase">Screen size</span>: 7 iches<br />
-                       <span class="uppercase">Ram</span>: 1 GB
-                     </div>
-                     <div class="produkt-price">
-                       <p class="price">$399<sup> 50</sup></p> 
-                      </div>
-                        <button class="details-btn">More details</button>
-                      <div class="product-cart-btn">
-                         <button class="add-btn">Add to cart</button>
-                         <div class="white-cart"></div>
-                      </div>
-                  </div>
-                  </div>  
-               </div>
-              <!-- #7 Divice name -->
-               <div class="col-4">
-                <div class="produkt">
-                  <div class="produkt-foto">
-                       <a href="#">
-                         <img src="./img/divice7.png" alt="tablet"/>
-                       </a>
-                       <div class="expand"></div>
-                       <div class="like"></div>
-                  </div>
-                  <div class="produkt-card-text">
-                  <div class="produkt-title">
-                    <h3>#7 Divice name</h3>
-                  </div>
-                  <div class="produkt-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                  </div>
-                  <div class="product-features">
-                     <span class="uppercase">Type</span>: Laptop<br />
-                     <span class="uppercase">Screen size</span>: 7 iches<br />
-                     <span class="uppercase">Ram</span>: 1 GB
-                   </div>
-                   <div class="produkt-price">
-                     <p class="price">$599<sup> 25</sup></p> 
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
                     </div>
-                      <button class="details-btn">More details</button>
-                    <div class="product-cart-btn">
-                       <button class="add-btn">Add to cart</button>
-                       <div class="white-cart"></div>
+                    <div class="produkt-price">
+                      <p class="price">$399<sup> 50</sup></p>
                     </div>
-                </div>
-                </div>  
-               </div>
-              <!-- #8 Divice name -->
-               <div class="col-4">
-                <div class="produkt">
-                  <div class="produkt-foto">
-                       <a href="#">
-                         <img src="./img/divice8.png" alt="dvd"/>
-                       </a>
-                       <div class="expand"></div>
-                       <div class="like"></div>
-                  </div>
-                  <div class="produkt-card-text">
-                  <div class="produkt-title">
-                    <h3>#8 Divice name</h3>
-                  </div>
-                  <div class="produkt-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                  </div>
-                  <div class="product-features">
-                     <span class="uppercase">Type</span>: Laptop<br />
-                     <span class="uppercase">Screen size</span>: 7 iches<br />
-                     <span class="uppercase">Ram</span>: 1 GB
-                   </div>
-                   <div class="produkt-price">
-                     <p class="price">$1250<sup> 99</sup></p> 
-                    </div>
-                      <button class="details-btn">More details</button>
-                    <div class="product-cart-btn">
-                       <button class="add-btn">Add to cart</button>
-                       <div class="white-cart"></div>
-                    </div>
-                </div>
-                </div>  
-               </div>
-              <!-- #9 Divice name -->
-               <div class="col-4">
-              <div class="produkt">
-                <div class="produkt-foto">
-                     <a href="#">
-                       <img src="./img/divice9.png" alt="wrist watch"/>
-                     </a>
-                     <div class="expand"></div>
-                     <div class="like"></div>
-                </div>
-                <div class="produkt-card-text">
-                <div class="produkt-title">
-                  <h3>#9 Divice name</h3>
-                </div>
-                <div class="produkt-description">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                </div>
-                <div class="product-features">
-                   <span class="uppercase">Type</span>: Laptop<br />
-                   <span class="uppercase">Screen size</span>: 7 iches<br />
-                   <span class="uppercase">Ram</span>: 1 GB
-                 </div>
-                 <div class="produkt-price">
-                   <p class="price">$399<sup> 50</sup></p> 
-                  </div>
                     <button class="details-btn">More details</button>
-                  <div class="product-cart-btn">
-                     <button class="add-btn">Add to cart</button>
-                     <div class="white-cart"></div>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
                   </div>
+                </div>
               </div>
-              </div>  
-               </div>
-            </div> 
+              <!-- #7 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice7.png" alt="tablet" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#7 Divice name</h3>
+                    </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$599<sup> 25</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- #8 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice8.png" alt="dvd" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#8 Divice name</h3>
+                    </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$1250<sup> 99</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- #9 Divice name -->
+              <div class="col-4">
+                <div class="produkt">
+                  <div class="produkt-foto">
+                    <a href="#">
+                      <img src="./img/divice9.png" alt="wrist watch" />
+                    </a>
+                    <div class="expand"></div>
+                    <div class="like"></div>
+                  </div>
+                  <div class="produkt-card-text">
+                    <div class="produkt-title">
+                      <h3>#9 Divice name</h3>
+                    </div>
+                    <div class="produkt-description">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                    <div class="product-features">
+                      <span class="uppercase">Type</span>: Laptop<br />
+                      <span class="uppercase">Screen size</span>: 7 iches<br />
+                      <span class="uppercase">Ram</span>: 1 GB
+                    </div>
+                    <div class="produkt-price">
+                      <p class="price">$399<sup> 50</sup></p>
+                    </div>
+                    <button class="details-btn">More details</button>
+                    <div class="product-cart-btn">
+                      <button class="add-btn">Add to cart</button>
+                      <div class="white-cart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="row">
               <div class="col-12">
-                <a class="load-more"href="#">Load more...</a>
+                <a class="load-more" href="#">Load more...</a>
               </div>
             </div>
           </div>
         </div>
-      </div>  
+      </div>
+    </main>
     <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">Footer</div>
+      
+        <div class="row">
+          <div class="col-12">
+            <p>&#169 Copyright 2017</p> 
           </div>
         </div>
+      
     </footer>
   </body>
 </html>
