@@ -92,9 +92,9 @@ $('.slider').slick({
 // функцию нищадно закопипастил, не судите строго))
 
 window.onscroll = function () {
-    var offset = window.pageYOffset || document.documentElement.scrollTop,
-        windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight,
-        progress = Math.floor(offset / windowHeight * 100);
+    let offset = window.pageYOffset || document.documentElement.scrollTop;
+    let windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let progress = Math.floor(offset / windowHeight * 100);
     if (progress >= 50) {
         openModal()
     } else if (progress < 50) {
